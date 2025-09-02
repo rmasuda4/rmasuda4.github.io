@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/Project 1 Image.jpg
 title: "Project 1"
 date: None
 published: true
