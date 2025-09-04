@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Project 1 Image.png
+image: img/Project1_Placeholder_Image.png
 title: "Project 1"
 date: None
 published: true
