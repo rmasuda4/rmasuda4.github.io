@@ -11,14 +11,14 @@ labels:
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
+<img width="300px" class="rounded float-start pe-4" src="../img/Smart_Question_Visual.png">
 
 ## Be Smart With Tech
 
 In software engineering, the ability to ask smart questions is as important as technical proficiency. A smart question demonstrates that the asker has attempted to understand a problem, did his own research, gives only the necessary/relative details, and can effectively communicate his issue. This speeds up the problem solving process, increases effective collaboration, and creates a culture of efficiency and respect within the tech community. Poorly framed questions often waste time, create needless complications, are often too vague, invite unproductive responses, and may damage a developer’s credibility.
 
 
-## Smart V.S Not So Smart
+## What is Smart vs What Isn't
 
 Stack Overflow is a Q&A site for programmers and is a great resource for anyone who may have issues with code or who may simply be looking to learn more about other people's problems and problem solving processes. Here I was able to find an example of what a smart question is:
 
@@ -48,47 +48,61 @@ Already up-to-date.
 How do I properly delete the remotes/origin/bugfix branch both locally and remotely?
 ```
 
-This question is smart because it includes precise details of the problem, documents failed attempts, provides the relevant environment (Git commands and error messages), and explicitly asks for clarification on the correct approach. It shows prior effort and invites helpful, detailed responses.
+This question is smart because it includes precise details of the problem, documents failed attempts, provides the relevant environment (Git commands and error messages), and explicitly asks for clarification on the correct approach. It shows prior effort and invites helpful, detailed responses. There are also some very not-so-smart questions as well, take the following for example:
 
 ```
-A: datetime and the datetime.timedelta classes are your friend.
+Q: Help! My code doesn’t work!!!
 
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
+#include <stdio.h>
+int main() {
+printf("Hello World!")
+return 0;
+}
 
-Like this:
-
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
+It says there’s an error but I don’t know what to do. Please fix it for me!!!
 
 ```
  
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
+This question lacks context, fails to document what the asker has tried, provides no error messages, makes unreasonable demands, uninformative title, and doesn't explain the goal of the program. Of course this is a bit of an extreme example that seems unrealistic, but it works as an outline and the perfect example of what not to do. 
 
-## The foolproof way to get ignored.
 
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
+## Good Questions Mean Good Answers
+
+One way you can tell the quality of the question is the quality of the answers. Smart questions tend to receive focused, explanatory answers that clarify the issue and educate the asker. Take the following reply from our previous smart question:
 
 ```
-Q: Facebook Desktop Notifier
+A:The short answers
+If you want more detailed explanations of the following commands, then see the long answers in the next section.
 
-I am a beginner programmer that have never used anything other than what's included in a language.
+Deleting a remote branch
+git push origin --delete <branch>  # Git version 1.7.0 or newer
+git push origin -d <branch>        # Shorter version (Git 1.7.0 or newer)
+git push origin :<branch>          # Git versions older than 1.7.0
+Deleting a local branch
+git branch --delete <branch>
+git branch -d <branch> # Shorter version
+git branch -D <branch> # Force-delete un-merged branches
+Deleting a local remote-tracking branch
+git branch --delete --remotes <remote>/<branch>
+git branch -dr <remote>/<branch> # Shorter
 
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
+git fetch <remote> --prune # Delete multiple obsolete remote-tracking branches
+git fetch <remote> -p      # Shorter
 
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
+The long answer: there are three different branches to delete!
+
+[The answer reply goes on to give a long and detailed explanation of the concepts surrounding the topic as well as why the solutions work with visual aids/images]
 ```
 
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
+The question received a highly effective answer that first provides a concise set of commands to delete a branch locally and remotely, then explains the reasoning behind each step. It highlights the distinction between local branches, remote branches, and local remote-tracking branches, and gives additional strategies like pruning obsolete remote-tracking branches, not to mention going above and beyond by adding various visuals and pictures to help with abstract ideas. This approach not only solves the immediate problem but teaches the asker how to manage branches effectively in the future.
 
-## Conclusion
+Conversely, not-so-smart questions often elicit dismissive or sarcastic replies, such as “RTFM” or vague guesses, which neither resolve the problem nor provide lasting knowledge.
 
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+
+## Insights and Conclusions
+
+My analysis of smart questions has given me valuable insight on how to best find solutions to my problems when getting help. Providing context, documenting attempts, and describing the problem clearly makes it more likely that others can help effectively.Additionally, respecting community norms and communicating clearly fosters collaboration and helps maintain the overall productivity of technical forums. Poorly framed questions disrupt this and reduce the likelihood of receiving useful guidance. 
+
+Ultimately, asking smart questions is integral to effective problem solving and professional growth in software engineering. Questions that provide context, demonstrate research, and clarify the problem encourage constructive responses and contribute to communal learning. Responses that combine concise instructions with clear explanations, like the Git branch deletion answer, maximize both efficiency and understanding. Practicing smart questioning not only improves one’s own problem-solving skills but also strengthens the broader technical community. 
+If you wish to visit the original StackOverflow question and see all the amazing and detailed answers here is the link:
+https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely
