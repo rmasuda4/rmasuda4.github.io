@@ -10,7 +10,7 @@ labels:
 summary: "A custom Minecraft modpack based on online mod Cobblemon"
 ---
 
-<img class="img-fluid" src="../img/vacay/vacay-home-page.png">
+<img class="img-fluid" src="../img/Cobblemon_Sample_Image.png">
 
 Cobblemon is an online modifaction(mod) to popular game Minecraft, which seeks to impliment features from another popular video game series Pokemon. This includes the various creatures, charachters, catching, and battle mechanics; but where it differs from other mods is that every model in game is uniquely made in a fitting Minecraft aesthetic. The mod has been praised for being the most natural fusion of the two different game mechanics and aesthetics and its opensource codebase along with its openess with the community leaves tons of room for customization and addons. This has resulted in many people making additional mods specifically for Cobblemon, and people like to impliment the mechanics of all their favorite mods known as modpacks. 
 
