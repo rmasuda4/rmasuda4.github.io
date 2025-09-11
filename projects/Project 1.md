@@ -11,6 +11,11 @@ labels:
 summary: "My experiences and results from LahainaLuna's Robotics Club and FRC tournaments"
 ---
 
+<div class="text-center p-4">
+  <img width="200px" src="../img/FRC_Logo.png" class="img-thumbnail" >
+  <img width="200px" src="../img/FRC_Playfield.png" class="img-thumbnail" >
+  <img width="200px" src="../img/Limelight.png" class="img-thumbnail" >
+</div>
 
 The FIRST Robotics Competition (FRC) is a worldwide high school robotics program where teams of students design, build, and program large robots to compete in themed games. Each January, the new game is revealed, and teams have about six weeks to create their robots with guidance from mentors, while staying within strict rules for size, weight, and budget. Events are structured like sports tournaments, with teams competing at local and regional levels to earn a spot at the FIRST Championship, a massive international event featuring teams from around the world. FRC emphasizes not just competition, but also values like Gracious Professionalism® and Coopertition®, encouraging teams to collaborate and help each other even while competing.
 
