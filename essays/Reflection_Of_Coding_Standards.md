@@ -9,7 +9,7 @@ labels:
   - Programming
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/Screenshot 2025-09-10 153521.png">
+<img width="200px" class="rounded float-start pe-4" src="../img/CodeStandardPic.png">
 
 
 ## Coding Standards and My Experience With ESLint
