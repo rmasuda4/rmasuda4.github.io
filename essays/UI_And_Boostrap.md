@@ -10,7 +10,7 @@ labels:
   - UI Design
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="img/User_Interface_378539e94c.png">
+<img width="200px" class="rounded float-start pe-4" src="..img/UI_Image.png">
 
 
 ## Perspective On UI
