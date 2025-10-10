@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "A Future In Software Engineering"
 # All dates must be YYYY-MM-DD format!
-date: 2025-09-04
+date: 2025-09-25
 published: true
 labels:
   - Engineering
