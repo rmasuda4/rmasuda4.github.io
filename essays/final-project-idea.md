@@ -9,6 +9,11 @@ labels:
 ---
 
 ## Project: Gamer Connect
+By: 
+- Richard Masuda
+- Jiaxing Feng
+- Andrew Bushong
+- Jene Mercado
 
 ## Overview
 The problem:
