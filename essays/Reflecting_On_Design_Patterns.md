@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "A Future In Software Engineering"
+title: "Design Patterns In Software Engineering"
 # All dates must be YYYY-MM-DD format!
 date: 2025-12-04
 published: true
@@ -9,7 +9,7 @@ labels:
   - Software Engineering
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/Design patterns.png"
+<img width="200px" class="rounded float-start pe-4" src="../img/Design patterns.png">
 
 
 ## TDesign Patterns: The Strategic Playbook of Software Development
