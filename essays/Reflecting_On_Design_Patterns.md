@@ -12,7 +12,7 @@ labels:
 <img width="200px" class="rounded float-start pe-4" src="../img/Design patterns.png">
 
 
-## TDesign Patterns: The Strategic Playbook of Software Development
+## Design Patterns: The Strategic Playbook of Software Development
 
 Design patterns,simply put, are the solutions to recurring problems in software development and engineering, it is the fact that people often take the same or similar approaches to problems that are alike. One could easily compare it to how experienced players develop strategies for situations they encounter repeatedly in games, when going through a maze people often follow their own unique strategy but use the same strategy almost every time. Design patterns emerged from the collective wisdom of developers who noticed that certain design challenges appeared over and over across different projects; the need to share data between components, the desire to ensure only one instance of a resource exists, or the requirement to protect certain functionality from unauthorized access. Rather than reinventing the wheel each time these problems arise, the software community takes these proven approaches and turns them into reusable templates. These patterns represent decades of collective experience transformed into learnable, repeatable strategies that help developers avoid common pitfalls and mistakes in order to build more maintainable, scalable solutions.
 
