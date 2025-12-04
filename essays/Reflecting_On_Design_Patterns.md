@@ -9,7 +9,7 @@ labels:
   - Software Engineering
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/Screenshot 2025-09-10 153521.png">
+<img width="200px" class="rounded float-start pe-4" src="../img/Design patterns.png"
 
 
 ## TDesign Patterns: The Strategic Playbook of Software Development
