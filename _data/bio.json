@@ -14,7 +14,7 @@
     ]
   },
   "interests": [
-    { "name": "Video Game Creation/Design" },
+    { "name": "Video Game Creation & Design" },
     { "name": "World History" },
     { "name": "Geo-Politics" },
     { "name": "Cultural Studies" },
@@ -25,7 +25,7 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript"]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Typescript", "Vercel", "Boostrap", "SQL", "Github"]
     }
   ],
   "education": [
