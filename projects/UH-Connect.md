@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Alice.png
+image: img/Landing-Page_Screenshot.png
 title: "UH-Connect"
 date: 2025
 published: true
@@ -10,8 +10,11 @@ labels:
   - Web-Devlopment
 summary: "A website developed for the final project for my ICS 314 class."
 ---
-
-<img class="img-fluid" src="../img/Fish.png">
+<div class="text-center p-4">
+  <img width="200px" src="../img/img/Home_Screenshot.png" class="img-thumbnail" >
+  <img width="200px" src="../img/Request-Event_Screenshot.png" class="img-thumbnail" >
+  <img width="200px" src="../img/Limelight.png" class="img-thumbnail" >
+</div>
 
   UH Connect was a team-based software engineering project developed as part of ICS 314, focused on creating a centralized platform for University of Hawaiʻi students to discover, request, and manage campus events. The project emphasized full-stack web development, user experience design, and collaborative software engineering practices. Built using modern web technologies, UH Connect allowed users to search for events, request new events, and interact with administrators through a structured approval workflow. Beyond building a functional web application, the project served as a practical exercise in applying software engineering concepts such as modular design, coding standards, configuration management, and agile development.
 
